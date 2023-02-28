@@ -7,3 +7,7 @@ Second level cache in Hibernate
 How to define compositekey in JPA
 Hibernate vs JPA
 What data will be stored in level 1 cache and what data will be stored in level 2 cache
+Hibernate Caches
+Hibernate dialects
+Why should we provide complete class of Dialect in hbm.cfg file even dialects are from Hibernatelibrary
+Is session factory thread safe..?
