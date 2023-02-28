@@ -1,78 +1,31 @@
 orElse vs orElseGet
 Collections.groupingBy()
-Circuit breaker implementation
-Blue green deployment
-CAP theorem
 Java executor service
 Versions - Java, spring, spring boot
-Authentication & Authorisation in micro services
-Load balancer
-Nginx API gateway
-Different annotations in spring & spring boot
-Different injections in spring
-GOF singleton vs Spring singleton
-Spring bean life cycle
-Actuator in spring
-Resilience4j
-Hystrix
-Service discovery
-Spring cloud gateway
-Status codes in Rest api
-Rabbit MQ
-Docker
-Kubernetes
-@LoadBalanced annotation
-Distributed logging
-OAuth, Jwt
 Optional class in java 8
 Hashmap changes in java 8
 Streams vs Parallel Streams
 Static, private override
-@ControllerAdvice
-Spring security
-Context Loader Listener in Spring
-Communication b/w micro services
-Configuring Eureka Server/ Eureka Client
-Second level cache in Hibernate
 Functional Interfaces in java 8
 Lambda function uses
-Stateful APIs
-Patch & Options in REST
 Process vs Thread
-How to implement i18n in microservices
-propagation types in spring transaction api
-How to define compositekey in JPA
 Java 1.6 & 1.8 features
 Callable vs Runnable
 Stackoverflow vs Outofmemory
 How to implement custom iterator support
-Advantages of Micro services for business.
-How Spring boot auto configures the database
-What is the use of Spring profiles and how code understands which profile to load
-If we define 2 beans with same class with scope singleton, how many beans will get created on application startup
-What is the use of Qualifier
-Hibernate vs JPA
-What data will be stored in level 1 cache and what data will be stored in level 2 cache
 Weblogic JMS configuration
-How Spring actuator works
 SOLID principles
 How objects are passed to methods in java => pass by reference
 Try with resources
 String literal vs String Object
 Blocking Queue in java
-Error codes in Restful web services
 How to identify the memory leakage or Connection leakage in Production.
 Thread dump analysis tools
 XmlBind in Jaxb
-@Qualifier in Spring
-@ComponetScan use in Spring. Can we use it instead of @Service
 How to read External property files
-Actuator in Spring
-@RefreshScope annotation in spring
-@Conditionalproperty annotation
-Diff b/w @value & @Environment
-Dependency Injection types
-Mockito -> accessing private methods
+
+
+
 Eclipse vs Intellij
 Marker interface
 Cloning methods in javai
