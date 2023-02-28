@@ -1,26 +1,30 @@
-1. orElse vs orElseGet
-2. Collections.groupingBy()
-3. Circuit breaker implementation
-4. Blue green deployment
-5. CAP theorem
-6. Java executor service
-7. Versions - Java, spring, spring boot
-8. Authentication & Authorisation in micro services
-9. Load balancer
-10. Nginx API gateway
-11. Different annotations in spring & spring boot
-12. Different injections in spring
-13. GOF singleton vs Spring singleton
-14. Spring bean life cycle
-15. Actuator in spring
-16. Resilience4j
-17. Hystrix
-18. Service discovery
-19. Spring cloud gateway
-20. Status codes in Rest api
-21. Rabbit MQ
-22. Docker
-23. Kubernetes
-24. @LoadBalanced annotation
-25. Distributed logging
-26. OAuth, Jwt
+orElse vs orElseGet
+Collections.groupingBy()
+Circuit breaker implementation
+Blue green deployment
+CAP theorem
+Java executor service
+Versions - Java, spring, spring boot
+Authentication & Authorisation in micro services
+Load balancer
+Nginx API gateway
+Different annotations in spring & spring boot
+Different injections in spring
+GOF singleton vs Spring singleton
+Spring bean life cycle
+Actuator in spring
+Resilience4j
+Hystrix
+Service discovery
+Spring cloud gateway
+Status codes in Rest api
+Rabbit MQ
+Docker
+Kubernetes
+@LoadBalanced annotation
+Distributed logging
+OAuth, Jwt
+Optional class in java 8
+Hashmap changes in java 8
+Streams vs Parallel Streams
+Static, private override
