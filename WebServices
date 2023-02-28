@@ -2,3 +2,7 @@ How to handle timeouts in REST API
 REST vs SOAP
 Role based authentication in REST
 How to validate REST request using annotations
+Status codes in Rest api
+Stateful APIs
+Patch & Options in REST
+Error codes in Restful web services
