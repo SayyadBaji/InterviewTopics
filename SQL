@@ -2,3 +2,10 @@ Maximum salary per each department - SQL
 Left outer join
 Inner Join
 How to toggle values in a table which has only 1 column with values either 0 or 1
+Second highest salary
+Database indexing
+Underlying DS for search index in database
+Clustered Index vs Non Clustered Index in DB
+Disadvantages of Indexes
+Ranking queries
+SQL union vs join
