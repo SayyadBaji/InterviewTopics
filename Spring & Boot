@@ -33,3 +33,8 @@ How Spring actuator works
 @RefreshScope annotation in spring
 @Conditionalproperty annotation
 Diff b/w @value & @Environment
+What is use of @Configuration
+What if the property is not there and we tried to use @Value("someKey")
+IOC vs DI in spring
+Spring MVC flow
+@ExceptionHandler annotation
