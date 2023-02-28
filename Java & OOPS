@@ -23,9 +23,6 @@ How to identify the memory leakage or Connection leakage in Production.
 Thread dump analysis tools
 XmlBind in Jaxb
 How to read External property files
-
-
-
 Eclipse vs Intellij
 Marker interface
 Cloning methods in javai
@@ -35,19 +32,7 @@ Why Treeset doesn't allow NULL
 HashSet vs TreeSet
 Thread life cycle
 How to invoke sleep thread
-What is use of @Configuration
-Authentication & Authorization in REST
-What if the property is not there and we tried to use @Value("someKey")
 Map vs Flatmap in java8
-SOAP vs REST
-Why more performance in REST & why not in SOAP?
-Hibernate Caches
-Hibernate dialects
-Why should we provide complete class of Dialect in hbm.cfg file even dialects are from Hibernatelibrary
-IOC vs DI in spring
-Spring MVC flow
-REST Put vs Patch
-Servlet filter
 Different types of Cookies
 Diff b/w collections vs Streams
 Process vs Thread
@@ -56,10 +41,6 @@ Diff b/w 1.7 interface and Abstract class
 Collections framework hierarchy
 Exception hierarchy
 Garbage Collector internals
-HTTP response codes
-Servlet life cycle
-Servlet vs Servlet filter
-Challenges faced when converting monolith to microservices
 Redis cache
 How to improve application performance & maintenance
 Global exception handling
@@ -67,14 +48,9 @@ Hashmap collision
 Custom object sorting
 How to read properties file without frameworks
 Read data from excel & load into DB without frameworks
-How to optimize REST webservices performance
-@ExceptionHandler annotation
 When to use LinkedHashmap
 When to use Treemap
-Why we use RestTemplate
 Spliterator in java 8
-Data structures used in Collection framework
-What are 6 standards of rest
 When we get memory leak
 Major vs Minor GC
 Metaspace in JVM
@@ -93,7 +69,6 @@ ClassNotFoundException vs NoClassDefFoundError
 Iterator vs ListIterator
 Comparable vs Comparator
 Concurrent collections
-Is session factory thread safe..?
 Suppose we have classes A  & Main class. And class A is extending Thread and having an inner class. Where the inner class will get executed.
 Maximum how many threads we can create in Java
 Runnable vs Callable interfaces (explain in memory point of view)
@@ -114,7 +89,7 @@ Why streams are better than normal foreach
 What is volatile keyword
 What is 12 factor app
 Aggreagation vs Composition
-What is Inrteface Segrrgation
+What is Inrteface Segregation
 Event Driven Development
 Distributed computing vs Parallel computing
 Covarient return type
