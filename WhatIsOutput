@@ -1,0 +1,16 @@
+    Map m = new HashMap();
+		m.put("A", "B");
+		m.put("A", m.put("A", "C"));
+		System.out.println(m.get("A"));
+    
+    
+    
+    String s1 = "hello";
+		String s2 = new String("hello");
+		String s3 = new String(s2);
+		System.out.println(s1 == s2);
+		System.out.println(s1.hashCode() == s2.hashCode());
+		System.out.println(s2==s3);	
+		System.out.println(s1 == "he"+"llo");
+		System.out.println(s1 == ("hello123").substring(0,5));
+		System.out.println(s1 == s1.toString());
