@@ -1,1 +1,18 @@
 Circuit Breaker implementation
+Authentication & Authorisation in micro services
+Load balancer
+Nginx API gateway
+Resilience4j
+Hystrix
+Service discovery
+Spring cloud gateway
+Rabbit MQ
+Docker
+Kubernetes
+@LoadBalanced annotation
+Distributed logging
+OAuth, Jwt
+Communication b/w micro services
+Configuring Eureka Server/ Eureka Client
+How to implement i18n in microservices
+Advantages of Micro services for business.
