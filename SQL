@@ -1,1 +1,3 @@
 Maximum salary per each department - SQL
+Left outer join
+Inner Join
