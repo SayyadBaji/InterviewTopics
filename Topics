@@ -153,4 +153,15 @@ Sort collection using multiple fields in java8
 What is completeable Future in Java8
 Asynchronous communication in java 8
 How to map List<Address> in Employee using annotations
-
+How to handle exceptions with java8 foreach
+Diff b/w for & Java8 foreach
+Streams intermediate and terminal operation
+What is ThreadLocal
+Why streams are better than normal foreach
+What is volatile keyword
+What is 12 factor app
+Aggreagation vs Composition
+What is Inrteface Segrrgation
+Event Driven Development
+Distributed computing vs Parallel computing
+Covarient return type
