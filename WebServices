@@ -1,2 +1,4 @@
 How to handle timeouts in REST API
-194. REST vs SOAP
+REST vs SOAP
+Role based authentication in REST
+How to validate REST request using annotations
