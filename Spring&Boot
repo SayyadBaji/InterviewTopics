@@ -1,3 +1,13 @@
 Spring Transaction Management
 Diff b/w Constructor Injection & @Autowired
 @RestController
+SpringActuators
+How to connect to multiple databases in spring boot
+When you specify a bean to be a prototype
+Qualifiers in spring
+Diff b/w @SpringBootAppication vs @EnableAutoConfiguration
+What happens if we replace @Service with @Component in service layer
+preDestroy()
+Uses of ResponseEntity
+Spring batch
+Transaction management in Spring boot
