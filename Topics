@@ -126,3 +126,31 @@ When we get memory leak
 Major vs Minor GC
 Metaspace in JVM
 Telescopic constructor
+Maven command for dependency tree
+what is there in settings.xml in maven
+SSO internals
+Static vs Dynamic class loading. When you use dynamic class loading
+Sub class vs Inner class
+Can we define an Abstract class without abstract methods. If so what is diff b/w normal class & such abstract class
+what if we declare main method private
+Static synchronization vs Non static synchronization
+How concurrent hashmap works
+Examples for checked exceptions
+ClassNotFoundException vs NoClassDefFoundError
+Iterator vs ListIterator
+Comparable vs Comparator
+Concurrent collections
+Is session factory thread safe..?
+Suppose we have classes A  & Main class. And class A is extending Thread and having an inner class. Where the inner class will get executed.
+Maximum how many threads we can create in Java
+Runnable vs Callable interfaces (explain in memory point of view)
+What if we try to override static methods
+Diff b/w private, public, protected
+Other than reflection is there any way to access private & protected data
+Diff b/w Abstract class vs Interface (before 1.8 & after 1.8)
+Diff b/w Association, Composition & Aggregation
+Sort collection using multiple fields in java8
+What is completeable Future in Java8
+Asynchronous communication in java 8
+How to map List<Address> in Employee using annotations
+
