@@ -11,3 +11,7 @@ preDestroy()
 Uses of ResponseEntity
 Spring batch
 Transaction management in Spring boot
+Why constructor injection is preferred over setter injection
+How to create actuator on custom fields/endpoints
+How auto configuration works in spring boot
+@SpringBootApplication vs @EnableAutoConfiguration
