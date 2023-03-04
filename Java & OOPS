@@ -95,3 +95,4 @@ Distributed computing vs Parallel computing
 Covarient return type
 CopyOnWriteArrayList, CopyOnWriteArraySet, ConcurrentHashMap
 final list vs Collections.unmodifiableList
+HashTable vs ConcurrentHashMap even both are synchronized
