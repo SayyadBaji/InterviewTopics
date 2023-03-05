@@ -1,0 +1,15 @@
+Implement microservices on University Management System.
+
+Modules:
+a) Students
+b) Faculty
+c) Courses
+d) Departments
+e) Examinations
+
+Technologies:
+AWS
+Hystrix
+Load Balancer
+Logging
+JWT/OAuth
