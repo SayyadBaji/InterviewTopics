@@ -10,6 +10,6 @@ e) Examinations
 Technologies:
 AWS
 Hystrix
-Load Balancer
+API Gateway/Load Balancer
 Logging
 JWT/OAuth
