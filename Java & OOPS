@@ -97,3 +97,4 @@ CopyOnWriteArrayList, CopyOnWriteArraySet, ConcurrentHashMap
 final list vs Collections.unmodifiableList
 HashTable vs ConcurrentHashMap even both are synchronized
 Predefined Functional Interfaces in java8
+What is the use of default methods in Functional Interface?
