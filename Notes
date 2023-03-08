@@ -15,3 +15,25 @@ Example:
 public class JpaRepositoriesAutoConfiguration {
 }
 https://www.youtube.com/watch?v=qlygg_H1M20&ab_channel=JavaTechie
+
+**********************
+
+2. How to exclude few classes not to auto configure in Spring Boot.
+
+a) using @EnableAutoConfiguration 
+
+@Configuration
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+public class MyConfiguration {
+}
+
+b) in application.yml
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration
+      - org.springframework.boot.autoconfigure.security.FallbackWebSecurityAutoConfiguration
+      
+**********************
