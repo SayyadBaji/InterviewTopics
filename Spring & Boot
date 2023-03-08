@@ -39,3 +39,4 @@ IOC vs DI in spring
 Spring MVC flow
 @ExceptionHandler annotation
 Spring Cloud Function
+Content Negotiation in spring boot
