@@ -14,3 +14,4 @@ Example:
 @AutoConfigureAfter(HibernateJpaAutoConfiguration.class)
 public class JpaRepositoriesAutoConfiguration {
 }
+https://www.youtube.com/watch?v=qlygg_H1M20&ab_channel=JavaTechie
