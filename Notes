@@ -37,3 +37,7 @@ spring:
       - org.springframework.boot.autoconfigure.security.FallbackWebSecurityAutoConfiguration
       
 **********************
+
+3. Spring boot annotations
+
+https://www.youtube.com/watch?v=htyq-mER0AE&ab_channel=JavaTechie
