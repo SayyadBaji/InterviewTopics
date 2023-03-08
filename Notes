@@ -41,3 +41,26 @@ spring:
 3. Spring boot annotations
 
 https://www.youtube.com/watch?v=htyq-mER0AE&ab_channel=JavaTechie
+
+**********************
+
+4. Replace Tomcat with Jetty
+
+Modify pom.xml as below
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-jetty</artifactId>
+</dependency>
+
+https://howtodoinjava.com/spring-boot/configure-jetty-server/
