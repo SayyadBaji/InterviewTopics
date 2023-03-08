@@ -1,0 +1,16 @@
+1. Spring Boot Internals:
+
+In spring boot starters we do have 'spring.factories' in each of the jar. This file contains list of beans related to that particular jar. In each of 
+those class files, we have annotations for conditional beans loading.
+
+Example:
+@Configuration
+@ConditionalOnBean(DataSource.class)
+@ConditionalOnClass(JpaRepository.class)
+@ConditionalOnMissingBean({ JpaRepositoryFactoryBean.class,
+		JpaRepositoryConfigExtension.class })
+@ConditionalOnProperty(prefix = "spring.data.jpa.repositories", name = "enabled", havingValue = "true", matchIfMissing = true)
+@Import(JpaRepositoriesAutoConfigureRegistrar.class)
+@AutoConfigureAfter(HibernateJpaAutoConfiguration.class)
+public class JpaRepositoriesAutoConfiguration {
+}
