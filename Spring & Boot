@@ -38,3 +38,4 @@ What if the property is not there and we tried to use @Value("someKey")
 IOC vs DI in spring
 Spring MVC flow
 @ExceptionHandler annotation
+Spring Cloud Function
