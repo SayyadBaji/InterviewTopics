@@ -64,3 +64,12 @@ Modify pom.xml as below
 </dependency>
 
 https://howtodoinjava.com/spring-boot/configure-jetty-server/
+
+**********************
+
+5. JPARepository vs CRUDRepository
+JPARepository is a combination of CRUDRepository & PagingAndSortingRepository. So we can get more features from JPARepository
+Repository <- CRUDRepository
+Repository <- CRUDRepository <- PagingAndSortingRepository <- JPARepository
+
+https://www.geeksforgeeks.org/spring-boot-difference-between-crudrepository-and-jparepository/
