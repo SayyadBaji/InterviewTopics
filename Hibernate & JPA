@@ -13,3 +13,4 @@ Why should we provide complete class of Dialect in hbm.cfg file even dialects ar
 Is session factory thread safe..?
 Composite primary key in JPA
 JPARepository vs CRUDRepository
+Transaction Management in JPA
