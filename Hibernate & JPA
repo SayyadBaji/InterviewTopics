@@ -11,3 +11,4 @@ Hibernate Caches
 Hibernate dialects
 Why should we provide complete class of Dialect in hbm.cfg file even dialects are from Hibernatelibrary
 Is session factory thread safe..?
+Composite primary key in JPA
