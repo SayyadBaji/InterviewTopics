@@ -102,3 +102,25 @@ One must be the primary data source.
 		public DataSource dataSource() {
 			return DataSourceBuilder.create().build();
 		}
+
+**********************
+
+7. ChainedTransactionManager
+https://stackoverflow.com/questions/30337582/spring-boot-configure-and-use-two-data-sources
+
+If we want to commit/rollback both the transactions of diff datasources, we need this ChainedTransactionManager.
+
+Step 1: We need to create a bean
+@Bean(name = "chainedTransactionManager")
+public ChainedTransactionManager getChainedTransactionManager(@Qualifier ("tm1") DataSourceTransactionManager tm1, @Qualifier ("tm2") DataSourceTransactionManager tm2){
+    return new ChainedTransactionManager(tm1, tm2);
+}
+
+Step 2: We need to provide the above bean on the actual transaction.
+@Transactional(value="chainedTransactionManager")
+public void insertAll() {
+    UserBean test = new UserBean();
+    test.setUsername("username" + new Date().getTime());
+    dao1.insert(test);
+    dao2.insert(test);
+}
