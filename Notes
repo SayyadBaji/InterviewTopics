@@ -77,6 +77,7 @@ https://www.geeksforgeeks.org/spring-boot-difference-between-crudrepository-and-
 **********************
 
 6. Connecting to multiple data sources in spring boot.
+https://www.youtube.com/watch?v=iDogrHEo4x0&ab_channel=JavaTechie
 
 Step 1: Add multiple data source details in application.properties with diff prefixes
          spring.ds1.datasource.url = MySQLURL
