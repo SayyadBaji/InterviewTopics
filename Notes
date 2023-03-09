@@ -73,3 +73,28 @@ Repository <- CRUDRepository
 Repository <- CRUDRepository <- PagingAndSortingRepository <- JPARepository
 
 https://www.geeksforgeeks.org/spring-boot-difference-between-crudrepository-and-jparepository/
+
+**********************
+
+6. Connecting to multiple data sources in spring boot.
+
+Step 1: Add multiple data source details in application.properties with diff prefixes
+         spring.ds1.datasource.url = MySQLURL
+         spring.ds2.datasource.url = OracleURL
+
+Step 2: Create respective Entities & Repository classes.
+
+Step 3: Create multiple Java config files with detailsm like DataSource, LocalContainerEntityManagerFactoryBean, PlatformTransactionManager.
+	DS1Config.java
+		@Bean(name = "dataSource1")
+		@ConfigurationProperties(prefix = "spring.ds1.datasource")
+		public DataSource dataSource() {
+			return DataSourceBuilder.create().build();
+		}
+		
+	DS2Config.java
+		@Bean(name = "dataSource2")
+		@ConfigurationProperties(prefix = "spring.ds2.datasource")
+		public DataSource dataSource() {
+			return DataSourceBuilder.create().build();
+		}
