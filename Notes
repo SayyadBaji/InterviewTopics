@@ -85,8 +85,11 @@ Step 1: Add multiple data source details in application.properties with diff pre
 
 Step 2: Create respective Entities & Repository classes.
 
-Step 3: Create multiple Java config files with detailsm like DataSource, LocalContainerEntityManagerFactoryBean, PlatformTransactionManager.
+Step 3: Create multiple Java config files with detailsm like DataSource, LocalContainerEntityManagerFactoryBean, PlatformTransactionManager. 
+One must be the primary data source.
+
 	DS1Config.java
+		@Primary
 		@Bean(name = "dataSource1")
 		@ConfigurationProperties(prefix = "spring.ds1.datasource")
 		public DataSource dataSource() {
