@@ -35,3 +35,6 @@ https://www.youtube.com/watch?v=tlshVRtbS_c&ab_channel=PlayJava
 
 Hibernate StatelessSession
 https://thorben-janssen.com/hibernates-statelesssession/
+
+Hibernate save huge data:
+https://docs.jboss.org/hibernate/core/3.2/reference/en/html/batch.html
