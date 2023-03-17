@@ -70,3 +70,4 @@ Invalid (500 - 1000 is missing)
 Print side of a tree
 Removing duplicates from an array without collections.
 Reverse a string in less that O(n)
+Print even , odd numbers using 2 threads (With & Without Java8)
