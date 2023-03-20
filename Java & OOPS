@@ -1,5 +1,6 @@
 orElse vs orElseGet
-Can we declare main method final?
+Can we declare main method final?   YES
+can we pass -ve value in array size?   No compilation error. But we will get 'NegativeArraySizeException' at run time
 Collections.groupingBy()
 Java executor service
 Versions - Java, spring, spring boot
