@@ -36,3 +36,9 @@ syso(10 + 1 + s + 1 + 10);      => 115110
 
 String str = null;
 System.out.println(str.valueOf(10));      => 10
+
+
+
+String s1 = "abc";
+StringBuffer s2 = new StringBuffer(s1);
+System.out.println(s1.equals(s2));        => false
