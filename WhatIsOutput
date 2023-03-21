@@ -42,3 +42,8 @@ System.out.println(str.valueOf(10));      => 10 (valueOf is a static method)
 String s1 = "abc";
 StringBuffer s2 = new StringBuffer(s1);
 System.out.println(s1.equals(s2));        => false (equals checks if both objects are of String type. if not false)
+
+
+String str1 = "Test";
+String str2 = "Test";
+System.out.println(str1 = str2);        => Test (returns assigned value)
