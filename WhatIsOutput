@@ -32,3 +32,7 @@ System.out.println(t1.equals(t3));
 
 String s = "5";
 syso(10 + 1 + s + 1 + 10);      => 115110
+
+
+String str = null;
+System.out.println(str.valueOf(10));      => 10
