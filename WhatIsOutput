@@ -47,3 +47,28 @@ System.out.println(s1.equals(s2));        => false (equals checks if both object
 String str1 = "Test";
 String str2 = "Test";
 System.out.println(str1 = str2);        => Test (returns assigned value)
+
+
+
+package com.learning.oops;
+
+
+//Order: int, long, Integer, int...
+public class Test {
+	public static void main(String[] args) {
+		Test test = new Test();
+		test.print(5);
+	}
+	
+	public void print(Integer i) {
+		System.out.println("Integer");
+	}
+	
+	public void print(long i) {
+		System.out.println("long");
+	}
+	
+	public void print(int i) {
+		System.out.println("int");
+	}
+}
