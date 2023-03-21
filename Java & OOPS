@@ -3,6 +3,7 @@ Can we declare main method final?   YES
 can we pass -ve value in array size?   No compilation error. But we will get 'NegativeArraySizeException' at run time
 When do we get 'ArrayStoreException'? When we store different type of object in array
 String class implemens which interfaces? Comparable, CharSequence, Serializable
+How do you compare 2 StringBuilder objects? From java 11 => sb1.compareTo(sb2). Earlier toString equals
 Collections.groupingBy()
 Java executor service
 Versions - Java, spring, spring boot
