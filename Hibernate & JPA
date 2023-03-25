@@ -1,3 +1,4 @@
+Advantages & Disadvantages of Hibernate
 Hibernate mappings
 Hibernate persist() vs save()
 Get vs Load in Hibernate & why we get ObjectNotFoundException in load but not in get
