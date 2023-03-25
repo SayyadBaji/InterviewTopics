@@ -72,3 +72,24 @@ public class Test {
 		System.out.println("int");
 	}
 }
+
+
+
+
+
+
+public interface A {
+	public default void printMessage() {
+		System.out.println("I am from A");
+	}
+}
+public interface B {
+	public default void printMessage() {
+		System.out.println("I am from B");
+	}
+}
+public class C implements A, B {
+
+}
+Result: Compilation error
+Duplicate default methods named printMessage with the parameters () and () are inherited from the types B and A
