@@ -126,3 +126,15 @@ public void insertAll() {
     dao1.insert(test);
     dao2.insert(test);
 }
+
+**********************
+
+8. Count words using streams
+
+public class WordCount {
+	public static void main(String[] args) {
+		List<String> myList = Stream.of("Sachin", "Sehwag", "Dravid", "Sachin", "Ganguly").collect(Collectors.toList());
+		Map<String, Long> wordCountMap = myList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+		System.out.println(wordCountMap);
+	}
+}
