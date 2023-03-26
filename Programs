@@ -107,3 +107,6 @@ Numbers starts with 1;
 int[] numbers = {10, 20, 15, 30, 40, 50};
 List<Integer> numberStartsWith1 = Arrays.stream(numbers).boxed().filter(x->x.toString().startsWith("1")).collect(Collectors.toList());
 System.out.println(numberStartsWith1);
+
+
+WAP to remove duplicates from array
