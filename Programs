@@ -97,3 +97,13 @@ Print second highest from int array.
 int[] numbers = {10, 20, 15, 30, 40, 50};
 Integer secondHighest = Arrays.stream(numbers).boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
 System.out.println(secondHighest);
+
+
+Sum of Integers:
+Integer sumVal2 = IntStream.range(1, 50).boxed().collect(Collectors.summingInt(Integer::intValue));
+System.out.println(sumVal2);
+
+Numbers starts with 1;
+int[] numbers = {10, 20, 15, 30, 40, 50};
+List<Integer> numberStartsWith1 = Arrays.stream(numbers).boxed().filter(x->x.toString().startsWith("1")).collect(Collectors.toList());
+System.out.println(numberStartsWith1);
