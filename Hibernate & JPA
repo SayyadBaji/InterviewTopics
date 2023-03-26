@@ -17,3 +17,4 @@ JPARepository vs CRUDRepository
 Transaction Management in JPA
 Best way to load thousands of records => use 'StatelessSession' instead of 'Session'
 What is dirty check in Hibernate
+JpaSpecificationExecutor
