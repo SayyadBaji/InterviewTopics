@@ -71,3 +71,23 @@ Print side of a tree
 Removing duplicates from an array without collections.
 Reverse a string in less that O(n)
 Print even , odd numbers using 2 threads (With & Without Java8)
+
+
+Print first non repeat element from a string - java8
+String firstNonRepeat = Stream.of(input.split(""))
+		.collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+		.entrySet()
+		.stream()
+		.filter(x->x.getValue()==1)
+		.findFirst()
+		.get()
+		.getKey();
+          
+Print duplicates from a string - java8
+List<String> duplicatesKeys = Stream.of(input.split(""))
+				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+				.entrySet()
+				.stream()
+				.filter(x -> x.getValue() > 1)
+				.map(Map.Entry::getKey)
+				.collect(Collectors.toList());
