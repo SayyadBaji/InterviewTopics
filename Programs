@@ -91,3 +91,9 @@ List<String> duplicatesKeys = Stream.of(input.split(""))
 				.filter(x -> x.getValue() > 1)
 				.map(Map.Entry::getKey)
 				.collect(Collectors.toList());
+				
+
+Print second highest from int array.
+int[] numbers = {10, 20, 15, 30, 40, 50};
+Integer secondHighest = Arrays.stream(numbers).boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+System.out.println(secondHighest);
