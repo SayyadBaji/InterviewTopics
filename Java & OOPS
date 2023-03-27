@@ -119,3 +119,4 @@ ClassNotFoundException Vs NoClassDefFoundError in Java.
       => Class available at compile time, but not at run time  : (NoClassDefFoundError)
       => Tried to load a class which is not there with Class.forName("SomeClass") : (ClassNotFoundException)
 Class loaders & delegation principle
+If super class is serializable, then child will also be the same. How to restrict child not to be serializable?
