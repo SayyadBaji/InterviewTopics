@@ -43,3 +43,4 @@ Content Negotiation in spring boot
 What is ChainedTransactionManager in Spring Boot
 Creating custom actuator end points
 "ParameterizedTypeReference" with RestTemplate
+@EnableCaching in SpringBoot
