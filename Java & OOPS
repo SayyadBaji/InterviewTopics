@@ -118,3 +118,4 @@ yield(), sleep() and join() in threads
 ClassNotFoundException Vs NoClassDefFoundError in Java.  
       => Class available at compile time, but not at run time  : (NoClassDefFoundError)
       => Tried to load a class which is not there with Class.forName("SomeClass") : (ClassNotFoundException)
+Class loaders & delegation principle
