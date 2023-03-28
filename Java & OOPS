@@ -123,3 +123,4 @@ If super class is serializable, then child will also be the same. How to restric
 countdownlatch vs cyclicbarrier
 What is Island of Isolation in Garbage Collection..?
 Where the static blocks get stored in memory?   => in Metaspace
+Externalization in java
