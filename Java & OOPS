@@ -124,3 +124,4 @@ countdownlatch vs cyclicbarrier
 What is Island of Isolation in Garbage Collection..?
 Where the static blocks get stored in memory?   => in Metaspace
 Externalization in java
+What is Type erasure in generics
