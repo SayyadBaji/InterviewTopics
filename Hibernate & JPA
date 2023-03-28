@@ -21,3 +21,5 @@ JpaSpecificationExecutor
 Pesimistic lock vs optimistic lock
 How to connect to multiple databases from single application in Hibernate
 @QueryHints in JPA
+Native query example in JPA
+Paging & Sorting in Hibernate & JPA
