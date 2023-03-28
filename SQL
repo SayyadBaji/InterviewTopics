@@ -11,3 +11,4 @@ Ranking queries
 SQL union vs join
 SQL join vs leftouterjoin vs rightouterjoin
 SQL sequence
+Clustered Index vs Non Clustered Index
