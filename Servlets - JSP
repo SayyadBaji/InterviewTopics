@@ -2,3 +2,4 @@ Servlet life cycle methods
 Servlet chaining
 Return type of doGet & doPost
 Servlet vs Servlet filter
+How to pass parameters from one jsp to another jsp
