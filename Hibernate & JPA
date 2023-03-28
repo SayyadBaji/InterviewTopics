@@ -19,3 +19,4 @@ Best way to load thousands of records => use 'StatelessSession' instead of 'Sess
 What is dirty check in Hibernate
 JpaSpecificationExecutor
 Pesimistic lock vs optimistic lock
+How to connect to multiple databases from single application in Hibernate
