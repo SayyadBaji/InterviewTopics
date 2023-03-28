@@ -122,3 +122,4 @@ Class loaders & delegation principle
 If super class is serializable, then child will also be the same. How to restrict child not to be serializable?
 countdownlatch vs cyclicbarrier
 What is Island of Isolation in Garbage Collection..?
+Where the static blocks get stored in memory?   => in Metaspace
