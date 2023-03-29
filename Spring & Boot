@@ -44,3 +44,4 @@ What is ChainedTransactionManager in Spring Boot
 Creating custom actuator end points
 "ParameterizedTypeReference" with RestTemplate
 @EnableCaching in SpringBoot
+How to know which dependencies are used?     (mvn dependency:analyze)
