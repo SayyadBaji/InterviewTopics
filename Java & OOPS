@@ -83,7 +83,7 @@ Suppose we have classes A  & Main class. And class A is extending Thread and hav
 Maximum how many threads we can create in Java
 Runnable vs Callable interfaces (explain in memory point of view)
 What if we try to override static methods
-Diff b/w private, public, protected
+Diff b/w private, public, protected, default
 Other than reflection is there any way to access private & protected data
 Diff b/w Abstract class vs Interface (before 1.8 & after 1.8)
 Diff b/w Association, Composition & Aggregation
