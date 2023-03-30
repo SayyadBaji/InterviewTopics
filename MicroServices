@@ -24,3 +24,4 @@ How to validate the request
 How do you prevent Denial of service attack?
 Distributed Transaction Management
 SAGA design pattern
+What is the defaiult port for Eureka Server? ==>8761
