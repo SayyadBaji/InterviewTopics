@@ -17,3 +17,10 @@ Docker
 Kubernetes
 Mockito
 Swagger
+
+========================
+= Applications & Ports =
+========================
+StudentService  -> 8081
+ApiGateway      -> 8080
+EurekaServer    -> 9090
