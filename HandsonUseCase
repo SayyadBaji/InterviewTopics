@@ -23,4 +23,4 @@ Swagger
 ========================
 StudentService  -> 8081
 ApiGateway      -> 8080
-EurekaServer    -> 9090
+EurekaServer    -> 8761
