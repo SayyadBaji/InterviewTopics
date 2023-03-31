@@ -46,3 +46,4 @@ Creating custom actuator end points
 @EnableCaching in SpringBoot
 How to know which dependencies are used?     (mvn dependency:analyze)
 IOC vs DI
+@Primary vs @Qualifier
