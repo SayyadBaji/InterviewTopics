@@ -48,3 +48,4 @@ How to know which dependencies are used?     (mvn dependency:analyze)
 IOC vs DI
 @Primary vs @Qualifier
 How SQS is implemented
+What is zookeeper in kafka
