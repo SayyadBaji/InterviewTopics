@@ -3,7 +3,7 @@ Hibernate mappings
 Hibernate persist() vs save()
 Get vs Load in Hibernate & why we get ObjectNotFoundException in load but not in get
 Diff b/w @Basic and @Column
-What happens if we call session.save() o already existing object.
+What happens if we call session.save() on already existing object.
 Second level cache in Hibernate
 How to define compositekey in JPA
 Hibernate vs JPA
