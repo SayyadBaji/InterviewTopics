@@ -1,0 +1,20 @@
+Whether API request first hits API Gateway or Load balancer?
+HLD vs LLD
+How AWS SNS works?
+How to authenticate AWS S3 from java code?
+Are there any alternates for spring boot to develop micro services (Micronaut, Quarkus)
+How to roll back transactions in micro services?
+What is 2 phase, 3 phase commit approach?
+How to track the request across services in micro services architecture.
+How to configure Slueth?
+How to connect to multiple DBs in spring boot?
+How to implement own rate limiter and algorithm for this?
+What are some methods of Rest Template?
+Diff b/w getForObject and getForEntity in Rest Template?
+How to make an async api call?
+What is the significance of "Bearer " in token?
+What are the available repositories other than JPA & CRUD?
+How to audit the JPA (Hibernate-Envers)
+How to implement custom cache?
+Where the cache data gets stored and where the non cached data gets stored physically? 
+Code scanning and vulnerabilities
