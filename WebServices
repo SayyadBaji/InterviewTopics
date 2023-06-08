@@ -13,3 +13,6 @@ HTTP response codes
 How to optimize REST webservices performance
 Why we use RestTemplate
 What are 6 standards of rest
+What are the methods of RestTemplate?
+Diff b/w getForObject and getForEntity?
+How to make an async rest call?
