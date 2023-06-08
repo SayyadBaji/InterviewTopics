@@ -25,3 +25,11 @@ How do you prevent Denial of service attack?
 Distributed Transaction Management
 SAGA design pattern
 What is the defaiult port for Eureka Server? ==>8761
+Explain 2 phase / 3 phase commit approach (SAGA)
+How to configure Slueth for distributed logging?
+What are the alternates for Springboot to develop micro services (Micronaut, Quarkus)
+Service request first hits ApiGAteway / Loadbalancer?
+How to authenticate S3 connection from java?
+How AWS SNS works and its configuration
+How to implement own rate limiter and algorithm for this
+
