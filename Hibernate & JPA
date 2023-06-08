@@ -24,3 +24,7 @@ How to connect to multiple databases from single application in Hibernate
 Native query example in JPA
 Paging & Sorting in Hibernate & JPA
 How to define ENUM type fields as columns/fields in Entity classes?   => (@Enumerated)
+What are the available Repositories other than JPA, CRUD?
+How to audit the JPA/Hibernate? (Hibernate-Envers)
+Where the Cached data stores and where the non cached data stored?
+How to implement own cache?
