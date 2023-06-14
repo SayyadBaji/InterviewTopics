@@ -1,0 +1,7 @@
+First non repeating character from a string using java 8 (https://www.java-success.com/java-8-string-streams-finding-first-non-repeated-character-functional-programming/).
+How ControllerAdvice works internally.
+How to implement custom validation of a request in SpringBoot.
+How to generate and pass SPAN_ID & TRACE_ID in distributed logging.
+How to stop circular dependency in spring. (https://www.baeldung.com/circular-dependencies-in-spring)
+What are the REST constrains. (https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
+Check whether 2 strings are ISOMORPHIC or not. (Ex: "aaklkma", "ddptprd".     a->d, k->p, l->t, m->r)
