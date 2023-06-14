@@ -1,0 +1,12 @@
+Concurrent Hashmap vs Synchronized Hashmap.
+Serializable vs Externalizable.
+How to share Objects b/w threads.
+Why wait & notify are ion Object class and not in Thread class.
+Best way to store password. String or Char Array.
+How to stop a thread.
+Can we create constructor for an Abstract class.
+How to know whether a thread holds a lock or not.
+How to implement a queue using stack.
+start vs run in threads.
+What is busy spinning in threads.
+swap 2 integers without extra space.
