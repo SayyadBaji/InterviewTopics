@@ -1,0 +1,7 @@
+What if 2 users make a request to API and JWT got swapped? How to handle.
+What is Audience in JWT token.
+How to implement Whitelabel IP check in authentication.
+QueryForObject vs Query in JdbcTemplate.
+OFFSET, LIMIT in oracle.
+LeftJoin vs InnerJoin. Which once is faster.
+How to return back huge response as streams.
