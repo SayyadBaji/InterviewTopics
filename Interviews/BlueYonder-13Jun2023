@@ -5,7 +5,7 @@ Why wait & notify are ion Object class and not in Thread class.
 Best way to store password. String or Char Array.
 How to stop a thread. (https://www.geeksforgeeks.org/killing-threads-in-java/)
 Can we create constructor for an Abstract class.
-How to know whether a thread holds a lock or not.
+How to know whether a thread holds a lock or not.      (Thread.holdsLock(this) => return boolean)
 How to implement a queue using stack.
 start vs run in threads.
 What is busy spinning in threads.
