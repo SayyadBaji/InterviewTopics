@@ -10,3 +10,4 @@ How to implement a queue using stack.
 start vs run in threads.
 What is busy spinning in threads.
 swap 2 integers without extra space.
+How to avoid deadlock. (https://javarevisited.blogspot.com/2018/08/how-to-avoid-deadlock-in-java-threads.html)
